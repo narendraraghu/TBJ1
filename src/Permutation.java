@@ -1,11 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Java Program to find all permutations of a String
- * @author pankaj
- *
- */
 public class Permutation {
     public static Set<String> permutationFinder(String str) {
         Set<String> perm = new HashSet<String>();
