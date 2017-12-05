@@ -7,6 +7,9 @@ public class ST {
 
     public static void main(String[] args) {
 
+        String sh = "HowToDoInJava.com";
+        System.out.println(sh + " -> " + new StringBuilder(sh).reverse( ));
+
         String s = "Java technology blog for smart java concepts and coding practices";
 
 // Put words from String in Stack
